@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{QfWi:function(e,o,n){"use strict";n.r(o);var a=n("/I5d"),t=new(n.n(a).a)(".container",{responseType:"text",history:!1,path:function(){return"https://api.unsplash.com/photos?client_id=9ad80b14098bcead9c7de952435e937cc3723ae61084ba8e729adb642daf0251&page="+this.pageIndex}});t.loadNextPage(),setTimeout((function(){t.loadNextPage()}),1e3),t.on("load",(function(e,o){console.log(JSON.parse(e)),console.log(o)}))}},[["QfWi",1,2]]]);
-//# sourceMappingURL=main.2d26be0e90e6401fa20d.js.map

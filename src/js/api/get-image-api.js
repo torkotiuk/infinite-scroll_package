@@ -11,11 +11,11 @@ export default class GetImageAPI {
     // v. 2 - URL
     const BASE_URL =
       'https://pixabay.com/api/?image_type=photo&orientation=horizontal&';
-    const KEY = '20575585- f86bba565132ad4f87d3b8fdb';
+    const KEY = '20575585-f86bba565132ad4f87d3b8fdb';
     const searchParams = new URLSearchParams({
       q: this.searchQuery,
       page: this.page,
-      per_page: 6,
+      per_page: 12,
       key: KEY,
     });
     const URL = `${BASE_URL}${searchParams}`;

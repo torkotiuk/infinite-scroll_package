@@ -11,8 +11,23 @@
   </head>
   <body>
     <main>
-      <!-- Infinite scroll SECTION -->
-      <div class="container"></div>
+      <!-- gallery input -->
+      <form class="search-form" id="search-form">
+        <input
+          type="text"
+          name="query"
+          id="searchQuery"
+          autocomplete="off"
+          placeholder="Search images..."
+        />
+      </form>
+
+      <div class="gallery-container">
+        <ul class="gallery"></ul>
+      </div>
+
+      <!-- Intersection observer -->
+      <div class="sensitive"></div>
     </main>
   </body>
 </html>
